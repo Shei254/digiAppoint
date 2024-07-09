@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f56d6b3b3607c744a936971df367cc31",
+    "content-hash": "e753a4d5f999ef44078ea0bb2e218da1",
     "packages": [
         {
             "name": "authorizenet/authorizenet",
@@ -5401,16 +5401,16 @@
         },
         {
             "name": "shei/aws-marketplace-tools",
-            "version": "0.0.9",
+            "version": "0.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shei25420/aws-marketplace-tools-v2.git",
-                "reference": "7f1921a7d162bf1237d928f3fea2d919420e7612"
+                "reference": "2e0d8a1c440933bd31fb39ca20ee7ea772b0b25f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/shei25420/aws-marketplace-tools-v2/zipball/7f1921a7d162bf1237d928f3fea2d919420e7612",
-                "reference": "7f1921a7d162bf1237d928f3fea2d919420e7612",
+                "url": "https://api.github.com/repos/shei25420/aws-marketplace-tools-v2/zipball/2e0d8a1c440933bd31fb39ca20ee7ea772b0b25f",
+                "reference": "2e0d8a1c440933bd31fb39ca20ee7ea772b0b25f",
                 "shasum": ""
             },
             "require": {
@@ -5440,10 +5440,10 @@
             ],
             "description": "aws marketplace integration tools",
             "support": {
-                "source": "https://github.com/shei25420/aws-marketplace-tools-v2/tree/0.0.6",
+                "source": "https://github.com/shei25420/aws-marketplace-tools-v2/tree/0.0.9",
                 "issues": "https://github.com/shei25420/aws-marketplace-tools-v2/issues"
             },
-            "time": "2024-07-08T19:38:31+00:00"
+            "time": "2024-07-09T00:06:40+00:00"
         },
         {
             "name": "starkbank/ecdsa",
