@@ -32,6 +32,7 @@
                     <form action="{{ route('aws.register') }}" method="POST"
                           class="account__form verify-gcaptcha @if (!gs('registration')) form-disabled @endif">
                         @csrf
+                        <input type="hidden" name="customer_id" value="{{ app('request')->input('customer_id') }}" />
                         @if (!gs('registration'))
                             <span class="form-disabled-text">
                                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
