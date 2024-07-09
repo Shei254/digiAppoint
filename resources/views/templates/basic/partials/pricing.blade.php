@@ -58,7 +58,7 @@
                     <a href="{{ route('user.login') }}" class="btn btn-outline--base btn--sm">@lang('Subscribe Now')</a>
                 @else
                     @if(\Auth::user()->awsCustomer)
-                        <a href="{{ route('user.deposit.index', ['pricing_id' => $pricing->id, 'time' => ':placeholderTime']) }}"
+                        <a href="#"
                            class="btn btn-outline--base subscribeBtn btn--sm">@lang('Billing handled by aws')</a>
                     @else
                         <a href="{{ route('user.deposit.index', ['pricing_id' => $pricing->id, 'time' => ':placeholderTime']) }}"
