@@ -31,7 +31,7 @@
         "phpmailer/phpmailer": "^6.9",
         "razorpay/razorpay": "^2.9",
         "sendgrid/sendgrid": "^8.1",
-        "shei/aws-marketplace-tools": "^0.0.10",
+        "shei/aws-marketplace-tools": "^0.0.11",
         "stripe/stripe-php": "^13.13",
         "twilio/sdk": "^7.16",
         "vonage/client": "^4.0"
