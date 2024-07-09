@@ -5401,7 +5401,7 @@
         },
         {
             "name": "shei/aws-marketplace-tools",
-            "version": "0.0.6",
+            "version": "0.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/shei25420/aws-marketplace-tools-v2.git",
