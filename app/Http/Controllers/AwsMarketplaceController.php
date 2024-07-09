@@ -55,7 +55,6 @@ class AwsMarketplaceController extends Controller
             $request->validate([
                 'firstname' => 'required',
                 'lastname'  => 'required',
-                'name' => 'required|string|max:255',
                 'email' => 'required|string|email|max:255|unique:users',
                 'password' => ['required', 'confirmed', Rules\Password::defaults()],
                 "customer_id" => "required|string|max:255",
