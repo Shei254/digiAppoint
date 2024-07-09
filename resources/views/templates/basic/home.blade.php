@@ -3,7 +3,6 @@
     @php
         $bannerContent = getContent('banner.content', true);
     @endphp
-    {{ $bannerContent  }}
     <section class="banner-section bg-img" data-background-image="{{ getImage($activeTemplateTrue . 'images/thumbs/banner-bg.png') }}">
         <div class="container">
             <div class="row justify-content-center">
