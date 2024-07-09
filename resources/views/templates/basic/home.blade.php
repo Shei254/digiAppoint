@@ -3,6 +3,7 @@
     @php
         $bannerContent = getContent('banner.content', true);
     @endphp
+    {{ $bannerContent  }}
     <section class="banner-section bg-img" data-background-image="{{ getImage($activeTemplateTrue . 'images/thumbs/banner-bg.png') }}">
         <div class="container">
             <div class="row justify-content-center">
@@ -16,7 +17,7 @@
                     </div>
                     <div class="banner-screenshot">
                         <span class="banner-shape four"><img src="{{ getImage($activeTemplateTrue . 'images/shapes/2.png') }}" alt="image"></span>
-                        <img src="{{ getImage('assets/images/frontend/banner/' . $bannerContent->data_values->image, '1030x735') }}" alt="image">
+                        <img src="{{ getImage('assets/images/frontend/banner/66797140df1331719234880.png', '1030x735') }}" alt="image">
                     </div>
                 </div>
             </div>
@@ -29,5 +30,5 @@
             @include('Template::sections.' . $sec)
         @endforeach
     @endif
-    
+
 @endsection
